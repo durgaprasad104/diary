@@ -1,11 +1,10 @@
 streamlit==1.28.0
 firebase-admin==6.2.0
-Pillow==10.0.1
+Pillow==10.1.0
 fpdf2==2.7.6
-pyopenssl==23.2.0
-python-dotenv==1.0.0
-google-api-core==2.11.1
-google-auth==2.22.0
 google-cloud-firestore==2.11.1
-protobuf==4.23.4
-six==1.16.0
+protobuf==3.20.3  # Specific version that works with Firebase
+grpcio==1.59.0
+grpcio-status==1.59.0
+pyopenssl==23.2.0
+cryptography==41.0.4
